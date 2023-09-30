@@ -1,3 +1,53 @@
-theme: jekyll-theme-minimal
-title: Anish's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site wide configuration
+
+title: Anish Badri
+locale: en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Anish Badri 
+  avatar: bio-photo.jpg
+  bio: "Unemployed and Broke"
+  email: anishbadri2621@gmail.com
+  disqus-shortname:
+  github: AnishxBadri 
+  linkedin: anish-kumar-621432149 
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

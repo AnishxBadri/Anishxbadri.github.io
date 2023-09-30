@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Blog Posts
+  url: /posts/
+
+- title: Projects
+  url: /projects/
+
+- title: Books Read
+  url: /books/
+
+- title: Theme Setup
+  url: /theme-setup/
