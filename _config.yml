@@ -1,6 +1,10 @@
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "neon"
+
 # Site wide configuration
 
-title: Anish Badri
+title: Hey!
 locale: en_US
 url:
 
@@ -31,6 +35,13 @@ kramdown:
 post_ext: md
 page_ext: md
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
 # Found in _templates/
 post_layout: post
 page_layout: page
