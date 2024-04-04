@@ -4,3 +4,6 @@
 [submodule "quickstart/themes/hugo-coder"]
 	path = quickstart/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "anishbadri/themes/hugo-coder"]
+	path = anishbadri/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
