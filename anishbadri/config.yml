@@ -1,3 +1,4 @@
+
 baseurl = "https://anishxbadri.github.io/"
 title = "johndoe"
 theme = "hugo-coder"
@@ -66,3 +67,4 @@ style = "github-dark"
   name = "About"
   weight = 2
   url = "about/"
+
