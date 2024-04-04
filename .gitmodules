@@ -7,3 +7,6 @@
 [submodule "anishbadri/themes/hugo-coder"]
 	path = anishbadri/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "anishb/themes/hugo-coder"]
+	path = anishb/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
