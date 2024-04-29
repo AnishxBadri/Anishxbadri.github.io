@@ -10,3 +10,6 @@
 [submodule "anishb/themes/hugo-coder"]
 	path = anishb/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "webby/themes/hugo-coder"]
+	path = webby/themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
