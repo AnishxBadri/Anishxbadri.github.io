@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stuart Broad on Anish badri</title>
+    <link>http://localhost:1313/authors/stuart-broad/</link>
+    <description>Recent content in Stuart Broad on Anish badri</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/stuart-broad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Shit: Origins</title>
+      <link>http://localhost:1313/posts/git-shit/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-shit/</guid>
+      <description>On April 3rd, 2005, Linus Torvalds released a Linux kernel release candidate, 2.6.12-rc2. While the release candidate itself was relatively unremarkable, consisting of just a few bug fixes, it became significant for what it represented: the last Linux kernel release before the adoption of Git.&#xA;Stone Age: Linus as a Version Control Service Link to heading Initially, Linus-as-a-version-control-service, aka Linus himself, was the preferred version control tool for the Linux kernel.</description>
+    </item>
+  </channel>
+</rss>

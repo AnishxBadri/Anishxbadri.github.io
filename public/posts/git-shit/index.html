@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Git Shit: Origins · Anish badri
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Anish Badri">
+<meta name="description" content="Git origin story">
+<meta name="keywords" content="blog,developer,personal">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Git Shit: Origins">
+  <meta name="twitter:description" content="Git origin story">
+
+<meta property="og:url" content="http://localhost:1313/posts/git-shit/">
+  <meta property="og:site_name" content="Anish badri">
+  <meta property="og:title" content="Git Shit: Origins">
+  <meta property="og:description" content="Git origin story">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-27T00:00:00+00:00">
+    <meta property="article:tag" content="Git">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/git-shit/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Anish badri
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/git-shit/">
+              Git Shit: Origins
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-05-27T00:00:00Z">
+                May 27, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/stuart-broad/">Stuart Broad</a></div>
+
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/git/">Git</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>On April 3rd, 2005, Linus Torvalds released a Linux kernel release candidate, 2.6.12-rc2. While the
+release candidate itself was relatively unremarkable, consisting of just a few bug fixes, it became
+significant for what it represented: the last Linux kernel release before the adoption of Git.</p>
+<h2 id="stone-age-linus-as-a-version-control-service">
+  Stone Age: Linus as a Version Control Service
+  <a class="heading-link" href="#stone-age-linus-as-a-version-control-service">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Initially, Linus-as-a-version-control-service, aka Linus himself, was the preferred version
+control tool for the Linux kernel. Tarballs and patches would be sent by developers to a select
+set of Linus&rsquo;s dependable lieutenants. The fixes that made it through the vetting process would
+be forwarded to Linus. Ultimately, Linus would manually add them to his own source tree before
+cutting the release.</p>
+<p>While this manual workflow seems inhumane to us today, Linus at the time considered this woprkflow
+to be superior to the altneratives namely CVS. No not the pharamacy you idiot. CVS (Concurrent
+Versions System). It employed a centralized model, where a single repository stored all project
+files and revbisions, allowing developer to check out, modiy and commit changes. Despite its
+popularity, CVS had limitations, including difficulties with branching and merging, limited support
+for dsitributewd development, and vulnerability to data corruption.</p>
+<p>One of CVS&rsquo;s prominent critics was Linus himself. Linus believed that it was essential for every Linux developer to have a
+separate, isolated copy of the repository so they could work on their own branches, considering
+the large number of Linux developers worldwide. This made work easier offline and also helped with
+internal politics, since each developer could submit anything they wanted to their own repository
+and then had a chance to show the community that their modifications were worthwhile. This stopped
+the single repository from being gatekeepered by a small group of authors with commit access.</p>
+<h2 id="medieval-era-bitkeeper">
+  Medieval Era: BitKeeper
+  <a class="heading-link" href="#medieval-era-bitkeeper">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Enter Larry McVoy. Larry McVoy, founder of BitMover, <a href="https://lkml.org/lkml/1998/9/30/122"  class="external-link" target="_blank" rel="noopener">proposed BitKeeper to the Linux Community in
+1998</a>. BitKeeper was radically different from any of its
+contemporaries. In his pitch for BitKeeper, McVoy highlighted several key features that set it apart
+and whose insipiration we can clearly see in Git:</p>
+<ol>
+<li>
+<p>Distributed Source Management:</p>
+<ul>
+<li>BitKeeper: Each user had their own repo, embracing a distrubuted model</li>
+<li>Git: Git also follows a dsitributed model, where every user has a complete copy of the
+repository, allowign for offline work and independent development.</li>
+</ul>
+</li>
+<li>
+<p>Change Sets:</p>
+<ul>
+<li>BitKeeper: Introduced comprehensive change sets, containing detailed information about
+changes, their locations, revision history, and metadata.</li>
+<li>Git: Git employs commits as its fundamental unit of change, which serve a familiar purpose to
+BitKeeper&rsquo;s change sets. Commits in Git conrtain metadeta sucha as author ijnformation,
+timestamps, coimmit messagfes and references to parent commits, provdiing a comprehensive
+record of changes.</li>
+</ul>
+</li>
+<li>
+<p>Line of Development (LOD):</p>
+<ul>
+<li>BitKeeper: Introduced the cocnept of LODs, which fuunctioned as flexible branches that didn&rsquo;t
+necessarily need to explicitly be created.</li>
+<li>Git: LOD&rsquo;s are just like Git branches bnut with bnetter branching and merging capabilities.</li>
+</ul>
+</li>
+</ol>
+<h2 id="modern-era-git">
+  Modern Era: Git
+  <a class="heading-link" href="#modern-era-git">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>It always amazes me how two era-defining technologies, JavaScript and Git, were written in about 2
+weeks. While git is a work of art, Javascript in my opinion, is a cesspool of dog shit.
+Javascript was written in about 10 days, and it shows. Maybe if Brandon Eich spent the entirety
+of two weeks he could have come up with something better, but I digress.</p>
+<h2 id="references">
+  References
+  <a class="heading-link" href="#references">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><a href="https://graphite.dev/blog/bitkeeper-linux-story-of-git-creation"  class="external-link" target="_blank" rel="noopener">BitKeeper, Linux, and licensing disputes: How Linus wrote Git in 14 days</a></p>
+<p><a href="https://lkml.org/lkml/1998/9/30/122"  class="external-link" target="_blank" rel="noopener">Larry McVoy BitKeeper pitch</a></p>
+<p><a href="https://www.infoworld.com/article/2669670/after-controversy--torvalds-begins-work-on--git-.html#:~:text=week%20after%20a-,licensing%20dispute,-forced%20Torvalds%20to"  class="external-link" target="_blank" rel="noopener">After controversy, Torvalds beigns work on &ldquo;git&rdquo;</a></p>
+
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Anish Badri 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
